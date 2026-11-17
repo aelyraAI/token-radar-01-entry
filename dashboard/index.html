@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launch Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-in">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>Launch Radar</h1>
+        <p class="tagline">Protocols that record no token yet, ranked by what a token would be worth if their record stayed as it is — and how to farm each one before it issues.</p>
+      </div>
+    </div>
+    <dl class="snapshot-meta" id="snapshot-meta"></dl>
+  </div>
+  <nav class="views" id="views" aria-label="Views">
+    <a href="#/" data-view="board">The board</a>
+    <a href="#/live" data-view="live">Already trading</a>
+    <a href="#/model" data-view="model">The model</a>
+  </nav>
+</header>
+<main id="app" aria-busy="true"></main>
+<footer class="foot">
+  <p>Implied value is this radar's own claim, computed from the snapshot's figures by the model on the model page. A protocol here <em>records</em> no token; that is DefiLlama's record, not proof that none exists. Nothing here is a price, a prediction that a token will be issued, or financial advice.</p>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
